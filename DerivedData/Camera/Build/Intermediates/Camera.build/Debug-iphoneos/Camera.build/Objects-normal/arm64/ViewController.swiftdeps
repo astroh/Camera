@@ -7,14 +7,14 @@ provides-member:
 - ["C6Camera14ViewController", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UIViewController"
-- !private "ViewController3"
 - !private "*"
-- "ViewController"
-- !private "CGSizeMake"
-- !private "ViewController2"
 - !private "ViewController1"
+- !private "CGSizeMake"
 - "UIScrollView"
+- !private "ViewController2"
+- !private "ViewController3"
+- "UIViewController"
+- "ViewController"
 depends-member:
 - !private ["C6Camera14ViewController", "CGSizeMake"]
 - ["C6Camera14ViewController", "UIScrollView"]
