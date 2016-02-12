@@ -14,13 +14,13 @@
 		4907A4991C6AB07700D93ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4907A4971C6AB07700D93ACF /* LaunchScreen.storyboard */; };
 		4907A4A41C6AB07700D93ACF /* CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907A4A31C6AB07700D93ACF /* CameraTests.swift */; };
 		4907A4AF1C6AB07700D93ACF /* CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907A4AE1C6AB07700D93ACF /* CameraUITests.swift */; };
+		49A090541C6EA02100A87C38 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49A090531C6EA02100A87C38 /* 2.jpg */; };
 		49AE294E1C6D88540092B716 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE294C1C6D88540092B716 /* ViewController1.swift */; };
 		49AE294F1C6D88540092B716 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AE294D1C6D88540092B716 /* ViewController1.xib */; };
 		49AE29521C6D885C0092B716 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE29501C6D885C0092B716 /* ViewController2.swift */; };
 		49AE29531C6D885C0092B716 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AE29511C6D885C0092B716 /* ViewController2.xib */; };
 		49AE29561C6D88650092B716 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE29541C6D88650092B716 /* ViewController3.swift */; };
 		49AE29571C6D88650092B716 /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AE29551C6D88650092B716 /* ViewController3.xib */; };
-		49AE29591C6D8AED0092B716 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49AE29581C6D8AED0092B716 /* 2.jpg */; };
 		49AE295B1C6D8C460092B716 /* 3.1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49AE295A1C6D8C460092B716 /* 3.1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -55,13 +55,13 @@
 		4907A4AA1C6AB07700D93ACF /* CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4907A4AE1C6AB07700D93ACF /* CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUITests.swift; sourceTree = "<group>"; };
 		4907A4B01C6AB07700D93ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A090531C6EA02100A87C38 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = SOURCE_ROOT; };
 		49AE294C1C6D88540092B716 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		49AE294D1C6D88540092B716 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
 		49AE29501C6D885C0092B716 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		49AE29511C6D885C0092B716 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 		49AE29541C6D88650092B716 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		49AE29551C6D88650092B716 /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
-		49AE29581C6D8AED0092B716 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../izzy/development/logos/2.jpg; sourceTree = "<group>"; };
 		49AE295A1C6D8C460092B716 /* 3.1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.1.jpg; path = ../3.1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +125,7 @@
 				4907A4951C6AB07700D93ACF /* Assets.xcassets */,
 				4907A4971C6AB07700D93ACF /* LaunchScreen.storyboard */,
 				49AE295A1C6D8C460092B716 /* 3.1.jpg */,
-				49AE29581C6D8AED0092B716 /* 2.jpg */,
+				49A090531C6EA02100A87C38 /* 2.jpg */,
 				4907A49A1C6AB07700D93ACF /* Info.plist */,
 			);
 			path = Camera;
@@ -257,10 +257,10 @@
 				49AE295B1C6D8C460092B716 /* 3.1.jpg in Resources */,
 				49AE29571C6D88650092B716 /* ViewController3.xib in Resources */,
 				49AE294F1C6D88540092B716 /* ViewController1.xib in Resources */,
-				49AE29591C6D8AED0092B716 /* 2.jpg in Resources */,
 				4907A4991C6AB07700D93ACF /* LaunchScreen.storyboard in Resources */,
 				4907A4961C6AB07700D93ACF /* Assets.xcassets in Resources */,
 				49AE29531C6D885C0092B716 /* ViewController2.xib in Resources */,
+				49A090541C6EA02100A87C38 /* 2.jpg in Resources */,
 				4907A4941C6AB07700D93ACF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
