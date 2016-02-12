@@ -7,8 +7,8 @@ provides-member:
 - ["C6Camera15ViewController3", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "ViewController3"
 - "UIViewController"
+- "ViewController3"
 depends-member:
 - ["C6Camera15ViewController3", "deinit"]
 - ["C6Camera15ViewController3", "didReceiveMemoryWarning"]

@@ -7,23 +7,23 @@ provides-member:
 - ["C6Camera15ViewController2", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "AVCaptureSessionPreset1920x1080"
-- "AVCaptureSession"
-- !private "AVCaptureDeviceInput"
 - !private "AVLayerVideoGravityResizeAspect"
-- "AVCaptureStillImageOutput"
-- "UIViewController"
-- "UIImagePickerControllerDelegate"
-- "UINavigationControllerDelegate"
+- "ViewController2"
 - !private "AVCaptureDevice"
-- "UIView"
-- !private "AVCaptureVideoOrientation"
-- !private "AVMediaTypeVideo"
-- "Bool"
 - "AVCaptureVideoPreviewLayer"
 - !private "!="
+- "UIView"
 - !private "AVVideoCodecJPEG"
-- "ViewController2"
+- "Bool"
+- !private "AVCaptureSessionPreset1920x1080"
+- "UINavigationControllerDelegate"
+- !private "AVCaptureDeviceInput"
+- "UIViewController"
+- !private "AVCaptureVideoOrientation"
+- "AVCaptureStillImageOutput"
+- "UIImagePickerControllerDelegate"
+- "AVCaptureSession"
+- !private "AVMediaTypeVideo"
 depends-member:
 - !private ["C6Camera15ViewController2", "AVCaptureDevice"]
 - !private ["C6Camera15ViewController2", "AVCaptureDeviceInput"]
