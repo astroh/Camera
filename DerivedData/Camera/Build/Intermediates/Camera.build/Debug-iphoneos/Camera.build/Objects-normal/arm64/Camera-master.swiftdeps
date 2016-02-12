@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "af167e090b0956d3f3da2641fc277e86"
+build_time: [508379560, 828100000]
+inputs:
+  "/Users/2018isabellar/Desktop/Camera/Camera/ViewController.swift": [508379475, 0]
+  "/Users/2018isabellar/Desktop/Camera/Camera/AppDelegate.swift": [508376439, 0]
