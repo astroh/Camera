@@ -107,22 +107,51 @@ SWIFT_CLASS("_TtC6Camera11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
-@class UIImageView;
-@class UIImagePickerController;
+@class UIScrollView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC6Camera14ViewController")
-@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
-@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified photoLibrary;
-@property (nonatomic, strong) IBOutlet UIButton * __null_unspecified cameraButton;
-@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified imageView;
+@interface ViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UIScrollView * __null_unspecified scrollView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6Camera15ViewController1")
+@interface ViewController1 : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (IBAction)photoLibraryAction:(UIButton * __nonnull)sender;
-- (IBAction)cameraButtonAction:(UIButton * __nonnull)sender;
-- (void)imagePickerController:(UIImagePickerController * __nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * __nonnull)info;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIView;
+@class AVCaptureSession;
+@class AVCaptureStillImageOutput;
+@class AVCaptureVideoPreviewLayer;
+
+SWIFT_CLASS("_TtC6Camera15ViewController2")
+@interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, strong) IBOutlet UIView * __null_unspecified cameraView;
+@property (nonatomic, strong) AVCaptureSession * __nullable captureSession;
+@property (nonatomic, strong) AVCaptureStillImageOutput * __nullable stillImageOutput;
+@property (nonatomic, strong) AVCaptureVideoPreviewLayer * __nullable previewLayer;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6Camera15ViewController3")
+@interface ViewController3 : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
