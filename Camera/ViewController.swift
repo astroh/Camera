@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//hello
+//using my newest laotop-azusa
 class ViewController: UIViewController{
     
     @IBOutlet var scrollView: UIScrollView!
