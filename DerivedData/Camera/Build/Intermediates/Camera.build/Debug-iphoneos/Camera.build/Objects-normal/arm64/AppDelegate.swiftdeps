@@ -7,22 +7,22 @@ provides-member:
 - ["C6Camera11AppDelegate", ""]
 provides-dynamic-lookup:
 - "applicationWillEnterForeground"
-- "applicationDidBecomeActive"
-- "applicationDidEnterBackground"
-- "application"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
 - "window"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "applicationDidEnterBackground"
+- "applicationWillResignActive"
 depends-top-level:
-- "NSObject"
-- "UIWindow"
+- "Bool"
+- "UIApplication"
+- "UIApplicationDelegate"
 - "UIResponder"
+- "NSObject"
+- "AppDelegate"
 - !private "BooleanLiteralType"
 - "AnyObject"
-- "AppDelegate"
-- "UIApplicationDelegate"
-- "UIApplication"
-- "Bool"
+- "UIWindow"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

@@ -132,6 +132,9 @@ SWIFT_CLASS("_TtC6Camera15ViewController1")
 @class AVCaptureSession;
 @class AVCaptureStillImageOutput;
 @class AVCaptureVideoPreviewLayer;
+@class UIImageView;
+@class UITouch;
+@class UIEvent;
 
 SWIFT_CLASS("_TtC6Camera15ViewController2")
 @interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -143,6 +146,11 @@ SWIFT_CLASS("_TtC6Camera15ViewController2")
 - (void)didReceiveMemoryWarning;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillAppear:(BOOL)animated;
+@property (nonatomic, strong) IBOutlet UIImageView * __null_unspecified tempImageView;
+- (void)didPressTakePhoto;
+@property (nonatomic) BOOL didTakePhoto;
+- (void)didPressTakeAnother;
+- (void)touchesEnded:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
