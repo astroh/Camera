@@ -7,27 +7,21 @@
 //
 
 import UIKit
-import GoogleMaps
 
-class ViewController3: UIViewController, CLLocationManagerDelegate {
+class ViewController3: UIViewController {
 
-    @IBOutlet var mapView: GMSMapView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
     }
     
-}
+
     /*
     // MARK: - Navigation
 
@@ -37,3 +31,5 @@ class ViewController3: UIViewController, CLLocationManagerDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+
+}
