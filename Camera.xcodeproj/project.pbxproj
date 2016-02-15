@@ -248,7 +248,11 @@
 				TargetAttributes = {
 					4907A48A1C6AB07700D93ACF = {
 						CreatedOnToolsVersion = 7.2.1;
+<<<<<<< HEAD
 						DevelopmentTeam = 9C66D39MMK;
+=======
+						DevelopmentTeam = RG5Y8M57Y4;
+>>>>>>> parent of 75243fd... test
 					};
 					4907A49E1C6AB07700D93ACF = {
 						CreatedOnToolsVersion = 7.2.1;

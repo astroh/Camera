@@ -8,9 +8,12 @@
 
 import UIKit
 //using my newest laotop-azusa
+<<<<<<< HEAD
 //liya test
 //TEST AGAIN!!!!
 
+=======
+>>>>>>> parent of 75243fd... test
 class ViewController: UIViewController{
     
     @IBOutlet var scrollView: UIScrollView!
