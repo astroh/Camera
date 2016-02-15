@@ -14,6 +14,7 @@
 		4907A4991C6AB07700D93ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4907A4971C6AB07700D93ACF /* LaunchScreen.storyboard */; };
 		4907A4A41C6AB07700D93ACF /* CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907A4A31C6AB07700D93ACF /* CameraTests.swift */; };
 		4907A4AF1C6AB07700D93ACF /* CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907A4AE1C6AB07700D93ACF /* CameraUITests.swift */; };
+		498A946E1C72067D0097BA33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A946D1C72067D0097BA33 /* MapKit.framework */; };
 		49A090541C6EA02100A87C38 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49A090531C6EA02100A87C38 /* 2.jpg */; };
 		49AE294E1C6D88540092B716 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE294C1C6D88540092B716 /* ViewController1.swift */; };
 		49AE294F1C6D88540092B716 /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AE294D1C6D88540092B716 /* ViewController1.xib */; };
@@ -56,6 +57,7 @@
 		4907A4AA1C6AB07700D93ACF /* CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4907A4AE1C6AB07700D93ACF /* CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUITests.swift; sourceTree = "<group>"; };
 		4907A4B01C6AB07700D93ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498A946D1C72067D0097BA33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		49A090531C6EA02100A87C38 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = SOURCE_ROOT; };
 		49AE294C1C6D88540092B716 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		49AE294D1C6D88540092B716 /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498A946E1C72067D0097BA33 /* MapKit.framework in Frameworks */,
 				BFA436435B1CCD266F635CF7 /* libPods-Camera.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +162,7 @@
 		BC95087511EFB5A1A9CD764A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				498A946D1C72067D0097BA33 /* MapKit.framework */,
 				5EB98EDBFAF6B69C319617D7 /* libPods-Camera.a */,
 			);
 			name = Frameworks;
@@ -244,7 +248,7 @@
 				TargetAttributes = {
 					4907A48A1C6AB07700D93ACF = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 9Y3JG6236H;
+						DevelopmentTeam = 9C66D39MMK;
 					};
 					4907A49E1C6AB07700D93ACF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -510,7 +514,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.inr.Camera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plusplus.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -525,7 +529,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.inr.Camera;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plusplus.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

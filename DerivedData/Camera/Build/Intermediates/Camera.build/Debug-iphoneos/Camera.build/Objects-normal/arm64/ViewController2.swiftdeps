@@ -6,47 +6,43 @@ provides-nominal:
 provides-member:
 - ["C6Camera15ViewController2", ""]
 provides-dynamic-lookup:
+- "tempImageView"
+- "cameraView"
 - "previewLayer"
 - "viewDidAppear"
-- "cameraView"
-- "captureSession"
-- "tempImageView"
 - "didReceiveMemoryWarning"
-- "didPressTakeAnother"
-- "touchesEnded"
-- "viewDidLoad"
-- "didPressTakePhoto"
-- "viewWillAppear"
-- "stillImageOutput"
+- "captureSession"
 - "didTakePhoto"
+- "didPressTakeAnother"
+- "viewWillAppear"
+- "didPressTakePhoto"
+- "viewDidLoad"
+- "stillImageOutput"
 depends-top-level:
-- !private "AVCaptureVideoOrientation"
-- !private "UIImageOrientation"
-- "Set"
-- "UITouch"
-- !private "!="
-- !private "AVMediaTypeVideo"
-- !private "AVVideoCodecJPEG"
-- "BooleanLiteralType"
-- !private "AVLayerVideoGravityResizeAspect"
-- !private "CGImageCreateWithJPEGDataProvider"
-- "UIView"
-- "AVCaptureVideoPreviewLayer"
-- "Bool"
-- "UIImageView"
-- "AVCaptureSession"
-- !private "AVCaptureDevice"
-- "ViewController2"
-- !private "=="
-- "UINavigationControllerDelegate"
 - !private "AVCaptureSessionPreset1920x1080"
-- !private "UIImage"
-- "AVCaptureStillImageOutput"
-- "UIImagePickerControllerDelegate"
-- "UIEvent"
-- "UIViewController"
 - !private "CGDataProviderCreateWithCFData"
 - !private "AVCaptureDeviceInput"
+- "AVCaptureVideoPreviewLayer"
+- !private "AVCaptureDevice"
+- "UIView"
+- !private "=="
+- "Bool"
+- !private "UIImage"
+- !private "AVCaptureVideoOrientation"
+- "BooleanLiteralType"
+- "AVCaptureSession"
+- !private "AVVideoCodecJPEG"
+- "ViewController2"
+- !private "!="
+- !private "UIImageOrientation"
+- !private "AVLayerVideoGravityResizeAspect"
+- "UIViewController"
+- !private "CGImageCreateWithJPEGDataProvider"
+- !private "AVMediaTypeVideo"
+- "UINavigationControllerDelegate"
+- "UIImageView"
+- "AVCaptureStillImageOutput"
+- "UIImagePickerControllerDelegate"
 depends-member:
 - !private ["CSo19AVCaptureConnection", "videoOrientation"]
 - !private ["CSo15AVCaptureDevice", "defaultDeviceWithMediaType"]
@@ -122,18 +118,12 @@ depends-member:
 - !private ["PSs9AnyObject", "startRunning"]
 - ["PSs9AnyObject", "stillImageOutput"]
 - ["PSs9AnyObject", "tempImageView"]
-- ["PSs9AnyObject", "touchesEnded"]
 - !private ["PSs9AnyObject", "videoGravity"]
 - !private ["PSs9AnyObject", "videoOrientation"]
 - ["PSs9AnyObject", "viewDidAppear"]
 - ["PSs9AnyObject", "viewDidLoad"]
 - ["PSs9AnyObject", "viewWillAppear"]
 - ["PSs9AnyObject", ""]
-- !private ["PSs23ArrayLiteralConvertible", "Generator"]
-- !private ["PSs23ArrayLiteralConvertible", "Index"]
-- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
-- !private ["PSs23ArrayLiteralConvertible", "_Element"]
-- !private ["PSs23ArrayLiteralConvertible", "first"]
 - !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
 - !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["Sb", "_getBuiltinLogicValue"]
@@ -204,7 +194,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "startRunning"]
 - ["PSs11CVarArgType", "stillImageOutput"]
 - ["PSs11CVarArgType", "tempImageView"]
-- ["PSs11CVarArgType", "touchesEnded"]
 - !private ["PSs11CVarArgType", "videoGravity"]
 - !private ["PSs11CVarArgType", "videoOrientation"]
 - ["PSs11CVarArgType", "viewDidAppear"]
@@ -215,7 +204,6 @@ depends-member:
 - !private ["PSs14CollectionType", "Index"]
 - !private ["PSs14CollectionType", "SubSequence"]
 - !private ["PSs14CollectionType", "_Element"]
-- !private ["PSs14CollectionType", "first"]
 - !private ["PSs14CollectionType", "subscript"]
 - !private ["PSs10Comparable", "Distance"]
 - !private ["PSs10Comparable", "IntegerLiteralType"]
@@ -224,7 +212,6 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "Index"]
 - !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
 - !private ["PSs28CustomDebugStringConvertible", "_Element"]
-- !private ["PSs28CustomDebugStringConvertible", "first"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "AVCaptureDevice"]
 - !private ["PSs23CustomStringConvertible", "AVCaptureDeviceInput"]
@@ -264,7 +251,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "didPressTakePhoto"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["PSs23CustomStringConvertible", "didTakePhoto"]
-- !private ["PSs23CustomStringConvertible", "first"]
 - !private ["PSs23CustomStringConvertible", "frame"]
 - !private ["PSs23CustomStringConvertible", "hidden"]
 - !private ["PSs23CustomStringConvertible", "image"]
@@ -283,7 +269,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "stillImageOutput"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - ["PSs23CustomStringConvertible", "tempImageView"]
-- ["PSs23CustomStringConvertible", "touchesEnded"]
 - !private ["PSs23CustomStringConvertible", "videoGravity"]
 - !private ["PSs23CustomStringConvertible", "videoOrientation"]
 - ["PSs23CustomStringConvertible", "viewDidAppear"]
@@ -317,17 +302,13 @@ depends-member:
 - !private ["PSs9Equatable", "CGDataProviderCreateWithCFData"]
 - !private ["PSs9Equatable", "CGImageCreateWithJPEGDataProvider"]
 - !private ["PSs9Equatable", "Distance"]
-- !private ["PSs9Equatable", "Generator"]
-- !private ["PSs9Equatable", "Index"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "Portrait"]
 - !private ["PSs9Equatable", "RenderingIntentDefault"]
 - !private ["PSs9Equatable", "Right"]
-- !private ["PSs9Equatable", "SubSequence"]
 - !private ["PSs9Equatable", "UIImage"]
 - !private ["PSs9Equatable", "UIImageOrientation"]
 - !private ["PSs9Equatable", "_DisabledRangeIndex"]
-- !private ["PSs9Equatable", "_Element"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "addInput"]
 - !private ["PSs9Equatable", "addOutput"]
@@ -345,7 +326,6 @@ depends-member:
 - ["PSs9Equatable", "didPressTakePhoto"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - ["PSs9Equatable", "didTakePhoto"]
-- !private ["PSs9Equatable", "first"]
 - !private ["PSs9Equatable", "frame"]
 - !private ["PSs9Equatable", "hidden"]
 - !private ["PSs9Equatable", "image"]
@@ -363,7 +343,6 @@ depends-member:
 - !private ["PSs9Equatable", "startRunning"]
 - ["PSs9Equatable", "stillImageOutput"]
 - ["PSs9Equatable", "tempImageView"]
-- ["PSs9Equatable", "touchesEnded"]
 - !private ["PSs9Equatable", "videoGravity"]
 - !private ["PSs9Equatable", "videoOrientation"]
 - ["PSs9Equatable", "viewDidAppear"]
@@ -387,16 +366,12 @@ depends-member:
 - ["PSs8Hashable", "Bool"]
 - !private ["PSs8Hashable", "CGDataProviderCreateWithCFData"]
 - !private ["PSs8Hashable", "CGImageCreateWithJPEGDataProvider"]
-- !private ["PSs8Hashable", "Generator"]
-- !private ["PSs8Hashable", "Index"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "Portrait"]
 - !private ["PSs8Hashable", "RenderingIntentDefault"]
 - !private ["PSs8Hashable", "Right"]
-- !private ["PSs8Hashable", "SubSequence"]
 - !private ["PSs8Hashable", "UIImage"]
 - !private ["PSs8Hashable", "UIImageOrientation"]
-- !private ["PSs8Hashable", "_Element"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "addInput"]
 - !private ["PSs8Hashable", "addOutput"]
@@ -414,7 +389,6 @@ depends-member:
 - ["PSs8Hashable", "didPressTakePhoto"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - ["PSs8Hashable", "didTakePhoto"]
-- !private ["PSs8Hashable", "first"]
 - !private ["PSs8Hashable", "frame"]
 - !private ["PSs8Hashable", "hidden"]
 - !private ["PSs8Hashable", "image"]
@@ -432,7 +406,6 @@ depends-member:
 - !private ["PSs8Hashable", "startRunning"]
 - ["PSs8Hashable", "stillImageOutput"]
 - ["PSs8Hashable", "tempImageView"]
-- ["PSs8Hashable", "touchesEnded"]
 - !private ["PSs8Hashable", "videoGravity"]
 - !private ["PSs8Hashable", "videoOrientation"]
 - ["PSs8Hashable", "viewDidAppear"]
@@ -445,7 +418,6 @@ depends-member:
 - !private ["PSs9Indexable", "Index"]
 - !private ["PSs9Indexable", "SubSequence"]
 - !private ["PSs9Indexable", "_Element"]
-- !private ["PSs9Indexable", "first"]
 - !private ["PSs9Indexable", "subscript"]
 - !private ["VSs17IndexingGenerator", "Element"]
 - !private ["Si", "IntegerLiteralType"]
@@ -490,7 +462,6 @@ depends-member:
 - ["PSo8NSCoding", "previewLayer"]
 - ["PSo8NSCoding", "stillImageOutput"]
 - ["PSo8NSCoding", "tempImageView"]
-- ["PSo8NSCoding", "touchesEnded"]
 - !private ["PSo8NSCoding", "videoGravity"]
 - ["PSo8NSCoding", "viewDidAppear"]
 - ["PSo8NSCoding", "viewDidLoad"]
@@ -526,7 +497,6 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "previewLayer"]
 - ["PSo26NSExtensionRequestHandling", "stillImageOutput"]
 - ["PSo26NSExtensionRequestHandling", "tempImageView"]
-- ["PSo26NSExtensionRequestHandling", "touchesEnded"]
 - ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
@@ -544,12 +514,9 @@ depends-member:
 - ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "CGDataProviderCreateWithCFData"]
 - !private ["CSo8NSObject", "CGImageCreateWithJPEGDataProvider"]
-- ["CSo8NSObject", "Set"]
-- ["CSo8NSObject", "UIEvent"]
 - !private ["CSo8NSObject", "UIImage"]
 - !private ["CSo8NSObject", "UIImageOrientation"]
 - ["CSo8NSObject", "UIImageView"]
-- ["CSo8NSObject", "UITouch"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addInput"]
 - !private ["CSo8NSObject", "addOutput"]
@@ -584,7 +551,6 @@ depends-member:
 - !private ["CSo8NSObject", "startRunning"]
 - ["CSo8NSObject", "stillImageOutput"]
 - ["CSo8NSObject", "tempImageView"]
-- ["CSo8NSObject", "touchesEnded"]
 - !private ["CSo8NSObject", "videoGravity"]
 - !private ["CSo8NSObject", "videoOrientation"]
 - ["CSo8NSObject", "viewDidAppear"]
@@ -638,7 +604,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "startRunning"]
 - ["PSo16NSObjectProtocol", "stillImageOutput"]
 - ["PSo16NSObjectProtocol", "tempImageView"]
-- ["PSo16NSObjectProtocol", "touchesEnded"]
 - !private ["PSo16NSObjectProtocol", "videoGravity"]
 - !private ["PSo16NSObjectProtocol", "videoOrientation"]
 - ["PSo16NSObjectProtocol", "viewDidAppear"]
@@ -657,16 +622,7 @@ depends-member:
 - !private ["PSs12SequenceType", "Index"]
 - !private ["PSs12SequenceType", "SubSequence"]
 - !private ["PSs12SequenceType", "_Element"]
-- !private ["PSs12SequenceType", "first"]
 - !private ["PSs12SequenceType", "subscript"]
-- !private ["VSs3Set", "Generator"]
-- !private ["VSs3Set", "Index"]
-- !private ["VSs3Set", "SubSequence"]
-- !private ["VSs3Set", "_Element"]
-- !private ["VSs3Set", "first"]
-- !private ["VSs12SetGenerator", "Element"]
-- !private ["VSs8SetIndex", "Distance"]
-- !private ["VSs8SetIndex", "_DisabledRangeIndex"]
 - !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
 - !private ["PSs16SignedNumberType", "IntegerLiteralType"]
 - !private ["VSs5Slice", "Generator"]
@@ -717,7 +673,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "previewLayer"]
 - ["PSo21UIAppearanceContainer", "stillImageOutput"]
 - ["PSo21UIAppearanceContainer", "tempImageView"]
-- ["PSo21UIAppearanceContainer", "touchesEnded"]
 - ["PSo21UIAppearanceContainer", "viewDidAppear"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", "viewWillAppear"]
@@ -752,7 +707,6 @@ depends-member:
 - ["PSo18UIContentContainer", "previewLayer"]
 - ["PSo18UIContentContainer", "stillImageOutput"]
 - ["PSo18UIContentContainer", "tempImageView"]
-- ["PSo18UIContentContainer", "touchesEnded"]
 - ["PSo18UIContentContainer", "viewDidAppear"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", "viewWillAppear"]
@@ -799,7 +753,6 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "previewLayer"]
 - ["PSo18UIFocusEnvironment", "stillImageOutput"]
 - ["PSo18UIFocusEnvironment", "tempImageView"]
-- ["PSo18UIFocusEnvironment", "touchesEnded"]
 - ["PSo18UIFocusEnvironment", "viewDidAppear"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", "viewWillAppear"]
@@ -823,7 +776,6 @@ depends-member:
 - !private ["PSo31UIImagePickerControllerDelegate", "UIImageOrientation"]
 - !private ["PSo31UIImagePickerControllerDelegate", "cameraView"]
 - !private ["PSo31UIImagePickerControllerDelegate", "captureSession"]
-- !private ["PSo31UIImagePickerControllerDelegate", "didPressTakeAnother"]
 - !private ["PSo31UIImagePickerControllerDelegate", "didPressTakePhoto"]
 - !private ["PSo31UIImagePickerControllerDelegate", "didTakePhoto"]
 - ["PSo31UIImagePickerControllerDelegate", "imagePickerController"]
@@ -854,7 +806,6 @@ depends-member:
 - !private ["PSo30UINavigationControllerDelegate", "UIImageOrientation"]
 - !private ["PSo30UINavigationControllerDelegate", "cameraView"]
 - !private ["PSo30UINavigationControllerDelegate", "captureSession"]
-- !private ["PSo30UINavigationControllerDelegate", "didPressTakeAnother"]
 - !private ["PSo30UINavigationControllerDelegate", "didPressTakePhoto"]
 - !private ["PSo30UINavigationControllerDelegate", "didTakePhoto"]
 - ["PSo30UINavigationControllerDelegate", "imagePickerController"]
@@ -879,12 +830,9 @@ depends-member:
 - ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "CGDataProviderCreateWithCFData"]
 - !private ["CSo11UIResponder", "CGImageCreateWithJPEGDataProvider"]
-- ["CSo11UIResponder", "Set"]
-- ["CSo11UIResponder", "UIEvent"]
 - !private ["CSo11UIResponder", "UIImage"]
 - !private ["CSo11UIResponder", "UIImageOrientation"]
 - ["CSo11UIResponder", "UIImageView"]
-- ["CSo11UIResponder", "UITouch"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "bounds"]
 - ["CSo11UIResponder", "cameraView"]
@@ -905,7 +853,6 @@ depends-member:
 - ["CSo11UIResponder", "previewLayer"]
 - ["CSo11UIResponder", "stillImageOutput"]
 - ["CSo11UIResponder", "tempImageView"]
-- ["CSo11UIResponder", "touchesEnded"]
 - ["CSo11UIResponder", "viewDidAppear"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewWillAppear"]
@@ -939,7 +886,6 @@ depends-member:
 - ["PSo16UIStateRestoring", "previewLayer"]
 - ["PSo16UIStateRestoring", "stillImageOutput"]
 - ["PSo16UIStateRestoring", "tempImageView"]
-- ["PSo16UIStateRestoring", "touchesEnded"]
 - ["PSo16UIStateRestoring", "viewDidAppear"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewWillAppear"]
@@ -978,7 +924,6 @@ depends-member:
 - ["PSo18UITraitEnvironment", "previewLayer"]
 - ["PSo18UITraitEnvironment", "stillImageOutput"]
 - ["PSo18UITraitEnvironment", "tempImageView"]
-- ["PSo18UITraitEnvironment", "touchesEnded"]
 - ["PSo18UITraitEnvironment", "viewDidAppear"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", "viewWillAppear"]
@@ -1000,12 +945,9 @@ depends-member:
 - ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "CGDataProviderCreateWithCFData"]
 - !private ["CSo16UIViewController", "CGImageCreateWithJPEGDataProvider"]
-- ["CSo16UIViewController", "Set"]
-- ["CSo16UIViewController", "UIEvent"]
 - !private ["CSo16UIViewController", "UIImage"]
 - !private ["CSo16UIViewController", "UIImageOrientation"]
 - ["CSo16UIViewController", "UIImageView"]
-- ["CSo16UIViewController", "UITouch"]
 - ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "cameraView"]
 - ["CSo16UIViewController", "captureSession"]
@@ -1022,7 +964,6 @@ depends-member:
 - ["CSo16UIViewController", "previewLayer"]
 - ["CSo16UIViewController", "stillImageOutput"]
 - ["CSo16UIViewController", "tempImageView"]
-- ["CSo16UIViewController", "touchesEnded"]
 - ["CSo16UIViewController", "viewDidAppear"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", "viewWillAppear"]
@@ -1040,12 +981,9 @@ depends-member:
 - ["C6Camera15ViewController2", "Bool"]
 - !private ["C6Camera15ViewController2", "CGDataProviderCreateWithCFData"]
 - !private ["C6Camera15ViewController2", "CGImageCreateWithJPEGDataProvider"]
-- ["C6Camera15ViewController2", "Set"]
-- ["C6Camera15ViewController2", "UIEvent"]
 - !private ["C6Camera15ViewController2", "UIImage"]
 - !private ["C6Camera15ViewController2", "UIImageOrientation"]
 - ["C6Camera15ViewController2", "UIImageView"]
-- ["C6Camera15ViewController2", "UITouch"]
 - ["C6Camera15ViewController2", "UIView"]
 - ["C6Camera15ViewController2", "cameraView"]
 - ["C6Camera15ViewController2", "captureSession"]
@@ -1063,7 +1001,6 @@ depends-member:
 - ["C6Camera15ViewController2", "previewLayer"]
 - ["C6Camera15ViewController2", "stillImageOutput"]
 - ["C6Camera15ViewController2", "tempImageView"]
-- ["C6Camera15ViewController2", "touchesEnded"]
 - ["C6Camera15ViewController2", "viewDidAppear"]
 - ["C6Camera15ViewController2", "viewDidLoad"]
 - ["C6Camera15ViewController2", "viewWillAppear"]
@@ -1083,7 +1020,6 @@ depends-member:
 - !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
 - !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
-- !private ["PSs21_ObjectiveCBridgeable", "first"]
 - ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["PSs21_ObjectiveCBridgeable", "subscript"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
@@ -1096,7 +1032,6 @@ depends-member:
 - !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "bounds"]
-- !private ["PSs12_Reflectable", "first"]
 - !private ["PSs12_Reflectable", "hidden"]
 - !private ["PSs12_Reflectable", "image"]
 - ["PSs12_Reflectable", "init"]
@@ -1115,7 +1050,6 @@ depends-nominal:
 - !private "OSC25AVCaptureVideoOrientation"
 - !private "CSo26AVCaptureVideoPreviewLayer"
 - "PSs9AnyObject"
-- !private "PSs23ArrayLiteralConvertible"
 - !private "PSs22BidirectionalIndexType"
 - !private "PSs21BitwiseOperationsType"
 - "Sb"
@@ -1156,9 +1090,6 @@ depends-nominal:
 - !private "PSs21RandomAccessIndexType"
 - !private "PSs16RawRepresentable"
 - !private "PSs12SequenceType"
-- !private "VSs3Set"
-- !private "VSs12SetGenerator"
-- !private "VSs8SetIndex"
 - !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "VSs5Slice"
@@ -1206,4 +1137,59 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-interface-hash: "6c98e93bb7e88253a1a89a20e394c532"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSURLTileLayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSTileLayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSSyncTileLayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSServices.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolyline.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPolygon.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceTypes.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePickerConfig.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacePicker.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihoodList.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlaceLikelihood.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaView.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaService.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLink.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaLayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCameraUpdate.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanoramaCamera.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPanorama.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOrientation.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMutablePath.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarkerLayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMarker.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView+Animation.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorLevel.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorDisplay.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSIndoorBuilding.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGroundOverlay.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPath.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeometryUtils.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSGeocoder.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSOverlay.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCircle.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraUpdate.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCameraPosition.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteViewController.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteTableDataSource.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSProjection.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCoordinateBounds.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteResultsViewController.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompletePrediction.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteMatchFragment.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFilter.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUserAddedPlace.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesMacros.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlace.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSPlacesClient.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAutocompleteFetcher.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSUISettings.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSCALayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapLayer.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSMapView.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/Headers/Public/GoogleMaps/GoogleMaps/GMSAddress.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/2018isabellar/Desktop/Camera/Pods/GoogleMaps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "9924f179abc858e108ca839d08e2bedd"

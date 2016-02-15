@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -133,8 +134,6 @@ SWIFT_CLASS("_TtC6Camera15ViewController1")
 @class AVCaptureStillImageOutput;
 @class AVCaptureVideoPreviewLayer;
 @class UIImageView;
-@class UITouch;
-@class UIEvent;
 
 SWIFT_CLASS("_TtC6Camera15ViewController2")
 @interface ViewController2 : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -150,14 +149,15 @@ SWIFT_CLASS("_TtC6Camera15ViewController2")
 - (void)didPressTakePhoto;
 @property (nonatomic) BOOL didTakePhoto;
 - (void)didPressTakeAnother;
-- (void)touchesEnded:(NSSet<UITouch *> * __nonnull)touches withEvent:(UIEvent * __nullable)event;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class GMSMapView;
 
 SWIFT_CLASS("_TtC6Camera15ViewController3")
-@interface ViewController3 : UIViewController
+@interface ViewController3 : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, strong) IBOutlet GMSMapView * __null_unspecified mapView;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
